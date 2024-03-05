@@ -1,6 +1,6 @@
 body{
     color: azure;
-    background-color: black;
+    background-color: rgb(28, 26, 26);
 }
 .row{
     padding: 50px;
@@ -137,7 +137,7 @@ li a:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
-.spa{
+.spa{ 
   font-size: smaller;
   color: gray;
 }
@@ -149,4 +149,13 @@ li a:hover {
     -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
       0 0 0.45em var(--glow-color);
     text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
+}
+.product_header:hover{
+  color: rgb(248, 1, 1);
+  text-shadow: #39f143;
+  -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+      0 0 0.45em var(--glow-color);
+    -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+      0 0 0.45em var(--glow-color);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em red;
 }
